@@ -1,0 +1,21 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 15:41:54] "GET /search/?s=qwe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 15:42:16] "GET / HTTP/1.1" 200 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 15:42:55] "GET /search/?s=qwe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 15:52:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 16:32:13] "GET / HTTP/1.1" 200 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 16:32:21] "GET /search/?s=qwe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 16:34:04] "GET / HTTP/1.1" 200 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 16:34:11] "GET /search/?s=красивый HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 16:34:18] "GET / HTTP/1.1" 200 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 16:34:23] "GET /search/?s=привет HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 16:34:23] "[33mGET /search/uploads/images/Снимок%20экрана%20(330).png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2022 16:46:25] "GET / HTTP/1.1" 200 -
