@@ -15,7 +15,7 @@ def add_post(post:dict) ->dict:
     posts:list[dict] = load_posts()
     posts.append(post)
     with open('posts.json', 'w', encoding = 'utf-8') as file: #нам надо перезаписать
-        json.dump(posts, file)
+        json.dump(posts, file, ensure_ascii=False)
     return post
 
 

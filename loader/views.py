@@ -27,7 +27,7 @@ def add_post_page():
         return "Файл с неверным расширением"
 
     try:
-        picture_path : str = '/' + save_picture(picture)
+        picture_path : str = save_picture(picture)
 
     except FileNotFoundError:
         logging.error("Файл не найден")
